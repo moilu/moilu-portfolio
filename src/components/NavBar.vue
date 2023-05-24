@@ -1,6 +1,6 @@
 <template>
     <nav class="bg-dark md:pt-4 flex justify-between w-full">
-        <a class="text-light" href="#">
+        <a class="text-2xl" href="#">
             moilu
         </a>
         <personal-links></personal-links>

@@ -1,12 +1,14 @@
 <template>
-    <section class="grid mt-8 w-full">
-        <line-break></line-break>
-        <ul class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-6 pb-6">
-            <li v-for="(skill, index) in skills" :key="index">
-                <h3 class="font-bold mb-1 text-4xl">{{ skill.name }}</h3>
-                <p class="text-base">{{ skill.experience }}</p>
-            </li>
-        </ul>
+    <section class="bg-second-pattern bg-no-repeat bg-right-bottom">
+        <div class="container grid md:mx-auto w-full md:w-4/5 2xl:w-1/3">
+            <line-break></line-break>
+            <ul class="grid grid-cols-2 mt-14 pt-3 sm:grid-cols-3 gap-4">
+                <li v-for="(skill, index) in skills" :key="index">
+                    <h3 class="font-bold mb-1 text-4xl">{{ skill.name }}</h3>
+                    <p class="text-base">{{ skill.experience }}</p>
+                </li>
+            </ul>
+        </div>
     </section>
 </template>
 <script>

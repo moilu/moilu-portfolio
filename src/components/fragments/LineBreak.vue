@@ -1,5 +1,5 @@
 <template>
-    <hr class="bg-custom-gray border-none rounded-sm h-0.5 w-full">
+    <hr class="bg-custom-blue rounded-sm h-0.5 w-full">
 </template>
 <script>
 export default {
