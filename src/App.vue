@@ -19,17 +19,17 @@ components: {
 </script>
 
 <template>
-  <div class="bg-dark font-space-grotesk p-4 md:p-0 space-y-6 w-full text-white">
-    <header class="bg-blue-900 flex items-center justify-between md:mx-auto py-4 w-full md:w-4/5 2xl:w-1/3 z-10">
+  <div class="bg-dark font-space-grotesk space-y-6 w-full text-white">
+    <header class="bg-dark md:mx-auto sticky top-0 pb-4 w-full md:w-4/5 2xl:w-1/3 z-10">
       <NavBar />
     </header>
-    <main class="bg-first-pattern bg-no-repeat bg-left-top">
+    <main class="">
       <Hero />
       <SkillsSection />
       <Projects />
       <About />
     </main>
-    <footer class="bg-custom-gray-2 bg-first-pattern bg-no-repeat bg-left pb-8">
+    <footer class="bg-custom-gray-2 pb-8">
       <ContactForm />
       <FooterLinks />
     </footer>

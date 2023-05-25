@@ -1,7 +1,7 @@
 <template>
-    <nav class="bg-dark md:pt-4 flex justify-between w-full">
-        <a class="text-2xl" href="#">
-            moilu
+    <nav class="bg-dark flex justify-between px-4 md:px-0 md:pt-4 w-full">
+        <a class="hover:animate-pulse text-2xl" href="#hero">
+            Dev Moilu
         </a>
         <personal-links></personal-links>
     </nav>

@@ -1,8 +1,8 @@
 <template>
-    <section class="pt-8 md:mx-auto w-full md:w-4/5 2xl:w-1/3">
+    <section class="mt-8 md:mx-auto pt-8 px-4 md:px-0 w-full md:w-4/5 2xl:w-1/3">
         <line-break></line-break>
         <div class="flex justify-between mt-10">
-            <a class="text-2xl" href="#">moilu</a>
+            <a class="hover:animate-pulse text-2xl" href="#hero">Dev Moilu</a>
             <personal-links></personal-links>
         </div>
     </section>
