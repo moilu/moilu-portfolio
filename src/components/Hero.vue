@@ -1,6 +1,7 @@
 <template>
     <section class="grid sm:grid-cols-[65%_30%] sm:h-50v 2xl:h-30v items-center justify-between relative md:mx-auto px-4 md:px-0 w-full md:w-4/5 2xl:w-1/3" id="hero">
-        <img class="justify-self-center sm:justify-self-end sm:self-baseline sm:order-2 mb-4 sm:mb-0 rounded w-1/2 sm:w-4/5" src="../assets/Hero/picofme.webp" alt="Moises Luna">
+        <img class="sm:hidden justify-self-center mb-4 rounded w-1/2" src="../assets/Hero/picofme-mobile.webp" alt="Moises Luna">
+        <img class="hidden sm:block sm:justify-self-end sm:self-baseline sm:order-2 mb-4 sm:mb-0 rounded w-1/2 sm:w-4/5" src="../assets/Hero/picofme.webp" alt="Moises Luna">
         <div class="text-center sm:text-left">
             <h1 class="font-bold mb-4 text-3xl sm:text-4xl">
                 Nice to meet you!
