@@ -5,8 +5,8 @@
                 <h1 class="fold-bold mb-4 text-4xl">Contact</h1>
                 <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
             </div>
-            <form class="grid gap-4" action="#">
-                <input class="bg-transparent outline-none" placeholder="Name" type="text" name="name" id="">
+            <form class="grid gap-4">
+                <input class="bg-transparent outline-nonen" placeholder="Name" type="text" name="name" id="">
                 <line-break />
                 <input class="bg-transparent outline-none" placeholder="Email" type="email" name="email" id="">
                 <line-break />
@@ -27,3 +27,16 @@ export default {
     }
 }
 </script>
+<style scoped>
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    border: none;
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #242424 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+</style>>

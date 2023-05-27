@@ -20,10 +20,10 @@ components: {
 
 <template>
   <div class="bg-dark font-space-grotesk space-y-6 w-full text-white">
-    <header class="bg-dark md:mx-auto sticky top-0 pb-4 w-full md:w-4/5 2xl:w-1/3 z-10">
+    <header class="bg-dark sticky top-0 z-10">
       <NavBar />
     </header>
-    <main class="">
+    <main>
       <Hero />
       <SkillsSection />
       <Projects />

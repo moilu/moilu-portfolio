@@ -16,20 +16,21 @@ export default {
       'custom-blue': '#6098d3',
       'transparent': 'transparent',
     },
-    height: {
-			"30v": "30vh",
-			"60v": "60vh",
-		},
     extend: {
       visibility: ["group-hover"],
       backgroundImage: {
-        'first-pattern': "url('./assets/Hero/bg-figure.png')",
+        'first-pattern': "url('./assets/ovals-pattern.svg')",
         'second-pattern': "url('./assets/SkillsSection/bg-figure.png')",
+        'picofme': "url('./assets/Hero/picofme.webp')",
       },
       fontFamily: {
         'space-grotesk': ['Space Grotesk', 'sans-serif']
       },
     },
+    height: {
+			"30v": "30vh",
+			"50v": "50vh",
+		},
   },
   plugins: [],
 }
