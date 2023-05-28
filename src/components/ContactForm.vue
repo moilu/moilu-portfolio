@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-12 pt-4 sm:mt-14 sm:pt-8 px-4 md:px-0" id="contact">
+    <section class="mt-12 pt-4 sm:mt-14 px-4 md:px-0" id="contact">
         <div class="grid sm:grid-cols-2 gap-14 mt-14 md:mx-auto pt-8 w-full md:w-4/5 2xl:w-1/3">
             <div>
                 <h1 class="fold-bold mb-4 text-4xl">Contact</h1>
