@@ -1,6 +1,6 @@
 <template>
     <div class="group mt-10 relative">
-        <img class="h-[230px] opacity-100 lg:group-hover:opacity-50 lg:group-hover:transition-opacity w-full" :src="'src/assets/Projects/' + project.img.src" :alt="project.img.alt">
+        <img class="h-[230px] opacity-100 lg:group-hover:opacity-50 lg:group-hover:transition-opacity w-full" :src="`/src/assets/${project.img.src}`" :alt="project.img.alt">
         <h3 class="mt-5 fold-bold text-2xl">{{ project.name }}</h3>
         <p class="mt-2 text-base">{{ project.stack }}</p>
         <ul class="flex gap-4 mt-5 lg:invisible lg:group-hover:visible lg:hover:flex lg:absolute lg:top-[30%] lg:left-[20%]">
@@ -10,11 +10,19 @@
     </div>
 </template>
 <script>
+import { computed } from 'vue'
 export default {
     name: 'ProjectCard',
     props: {
         project: Object,
         required: true
+    },
+    methods: {
+        imgSrc() {
+            let url = new URL(`../assets/${this.project.img.src}`, import.meta.url)
+            console.log(url)
+            return url;
+        }
     }
 }
 </script>

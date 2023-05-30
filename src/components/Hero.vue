@@ -1,5 +1,5 @@
 <template>
-    <section class="sm:bg-left-pattern bg-no-repeat bg-left-top grid sm:grid-cols-[70%_30%] relative md:mx-auto px-4 md:px-0 w-full md:w-[90%] 2xl:w-1/2" id="hero">
+    <section class="grid sm:grid-cols-[70%_30%] relative md:mx-auto px-4 md:px-0 w-full md:w-[90%] 2xl:w-1/2" id="hero">
         <div class="order-2 sm:order-1 text-center md:mt-[40px] lg:mt-[60px] xl:mt[120px] md:w-[90%] 2xl:mt-[120px] sm:text-left">
             <h1 class="font-bold mb-4 text-3xl md:text-[52px] md:leading-[52px] lg:text-[88px] lg:leading-[88px]">
                 Nice to meet you!
