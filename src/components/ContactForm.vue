@@ -1,6 +1,6 @@
 <template>
-    <section class="mt-12 pt-4 sm:mt-14 px-4 md:px-0" id="contact">
-        <div class="grid sm:grid-cols-2 gap-14 mt-14 md:mx-auto pt-8 w-full md:w-[90%] 2xl:w-1/2">
+    <section class="mt-[80px] pt-4 sm:mt-[100px] lg:mt-[140px] px-4 md:px-0" id="contact">
+        <div class="container sm:bg-left-pattern bg-no-repeat grid gap-14 mt-14 w-full sm:grid-cols-2 md:mx-auto md:w-[90%] 2xl:w-1/2">
             <div>
                 <h1 class="fold-bold mb-4 text-4xl">Contact</h1>
                 <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
@@ -68,5 +68,8 @@ textarea:-webkit-autofill:focus {
     -webkit-text-fill-color: white;
     -webkit-box-shadow: 0 0 0px 1000px #242424 inset;
     transition: background-color 5000s ease-in-out 0s;
+}
+.container {
+    background-position: left bottom;
 }
 </style>>

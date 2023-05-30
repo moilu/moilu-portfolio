@@ -19,9 +19,8 @@ export default {
     extend: {
       visibility: ["group-hover"],
       backgroundImage: {
-        'first-pattern': "url('./assets/ovals-pattern.svg')",
-        'second-pattern': "url('./assets/SkillsSection/bg-figure.png')",
-        'picofme': "url('./assets/Hero/picofme.webp')",
+        'left-pattern': "url('./assets/ovals-pattern.svg')",
+        'right-pattern': "url('./assets/ovals-pattern-2.svg')",
       },
       fontFamily: {
         'space-grotesk': ['Space Grotesk', 'sans-serif']

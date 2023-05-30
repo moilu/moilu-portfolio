@@ -1,6 +1,6 @@
 <template>
-    <section class="mt-14 md:mx-auto pt-8 px-4 md:px-0 w-full md:w-[90%] 2xl:w-1/2">
-        <div class="flex justify-between pt-6">
+    <section class="mt-[80px] px-4 w-full sm:mt-[100px] lg:mt-[140px] md:mx-auto md:px-0 md:w-[90%] 2xl:w-1/2">
+        <div class="flex justify-between">
             <h1 class="font-bold text-4xl">Projects</h1>
             <a class="hover:animate-pulse decoration-4 decoration-custom-blue font-bold text-base underline underline-offset-8" href="#contact">CONTACT ME</a>
         </div>
@@ -26,7 +26,7 @@ export default {
                     name: 'Budget App',
                     stack: 'React, Bootstrap, uuid (id generator)',
                     img: {
-                        src: 'budget-app.png',
+                        src: 'budget-app.webp',
                         alt: 'Budget App'
                     },
                     codeUrl: 'https://github.com/moilu/rjs-budget-app',
@@ -36,7 +36,7 @@ export default {
                     name: 'Pokemon Game',
                     stack: 'HTML, CSS, Vue, API REST',
                     img: {
-                        src: 'pokemon-app.png',
+                        src: 'pokemon-app.webp',
                         alt: 'Pokemon Game'
                     },
                     codeUrl: 'https://github.com/moilu/03-pokemon-game',
@@ -46,7 +46,7 @@ export default {
                     name: 'Star Wars App',
                     stack: 'HTML, CSS, Vue, API REST',
                     img: {
-                        src: 'starwars-app.png',
+                        src: 'starwars-app.webp',
                         alt: 'Starwars App'
                     },
                     codeUrl: 'https://github.com/moilu/sw-api/tree/main',
@@ -56,7 +56,7 @@ export default {
                     name: 'Movie App',
                     stack: 'HTML, CSS, JavaScript, API REST',
                     img: {
-                        src: 'movie-app.png',
+                        src: 'movie-app.webp',
                         alt: 'Movie App'
                     },
                     codeUrl: 'https://github.com/moilu/js-movie-app',
