@@ -1,7 +1,7 @@
 <template>
     <div class="group mt-10 relative">
         <a :href="project.projectUrl" target="_blank">
-            <img class="h-[329px] w-full" :src="`/src/assets/${project.img.src}`" :alt="project.img.alt">
+            <img class="h-[329px] w-full" :src="`/src/assets/${imageUrl}`" :alt="project.img.alt">
         </a>
         <h3 class="mt-5 fold-bold text-2xl">{{ project.name }}</h3>
         <p class="mt-2 text-base">{{ project.stack }}</p>
@@ -18,11 +18,8 @@ export default {
         project: Object,
         required: true
     },
-    methods: {
-        imgSrc() {
-            let url = new URL(`../assets/${this.project.img.src}`, import.meta.url)
-            return url;
-        }
-    }
+    created() {
+        this.imageUrl = this.project.img.src;
+    },
 }
 </script>
