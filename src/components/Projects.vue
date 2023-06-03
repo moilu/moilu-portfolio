@@ -23,16 +23,6 @@ export default {
         return {
             projects: [
                 {
-                    name: 'Budget App',
-                    stack: 'React, Bootstrap, uuid (id generator)',
-                    img: {
-                        src: 'budget-app.webp',
-                        alt: 'Budget App'
-                    },
-                    codeUrl: 'https://github.com/moilu/rjs-budget-app',
-                    projectUrl: 'https://rjs-budget-app.vercel.app/',
-                },
-                {
                     name: 'Pokemon Game',
                     stack: 'HTML, CSS, Vue, API REST',
                     img: {
@@ -51,6 +41,16 @@ export default {
                     },
                     codeUrl: 'https://github.com/moilu/sw-api/tree/main',
                     projectUrl: 'https://sw-api.vercel.app/',
+                },
+                {
+                    name: 'Budget App',
+                    stack: 'React, Bootstrap, uuid (id generator)',
+                    img: {
+                        src: 'budget-app.webp',
+                        alt: 'Budget App'
+                    },
+                    codeUrl: 'https://github.com/moilu/rjs-budget-app',
+                    projectUrl: 'https://rjs-budget-app.vercel.app/',
                 },
                 {
                     name: 'Movie App',
