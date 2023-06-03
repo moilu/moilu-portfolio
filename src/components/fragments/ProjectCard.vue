@@ -1,7 +1,7 @@
 <template>
     <div class="group mt-10 relative">
         <a :href="project.projectUrl" target="_blank">
-            <img class="h-[230px] opacity-100 w-full" :src="`/src/assets/${project.img.src}`" :alt="project.img.alt">
+            <img class="h-[329px] w-full" :src="`/src/assets/${project.img.src}`" :alt="project.img.alt">
         </a>
         <h3 class="mt-5 fold-bold text-2xl">{{ project.name }}</h3>
         <p class="mt-2 text-base">{{ project.stack }}</p>
@@ -12,7 +12,6 @@
     </div>
 </template>
 <script>
-import { computed } from 'vue'
 export default {
     name: 'ProjectCard',
     props: {
@@ -22,7 +21,6 @@ export default {
     methods: {
         imgSrc() {
             let url = new URL(`../assets/${this.project.img.src}`, import.meta.url)
-            console.log(url)
             return url;
         }
     }

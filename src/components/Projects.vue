@@ -23,14 +23,14 @@ export default {
         return {
             projects: [
                 {
-                    name: 'Pokemon Game',
-                    stack: 'HTML, CSS, Vue, API REST',
+                    name: 'Preview card component',
+                    stack: 'React, Tailwind CSS, Vite',
                     img: {
-                        src: 'pokemon-app.webp',
-                        alt: 'Pokemon Game'
+                        src: 'preview-card.jpg',
+                        alt: 'Perfume preview card, price 149.99'
                     },
-                    codeUrl: 'https://github.com/moilu/03-pokemon-game',
-                    projectUrl: 'https://vue-pokemon-by-moi.netlify.app/',
+                    codeUrl: 'https://github.com/moilu/preview-card',
+                    projectUrl: 'https://647a74aa65687c1aff6b2688--nimble-genie-69892e.netlify.app/',
                 },
                 {
                     name: 'Star Wars App',
@@ -41,6 +41,16 @@ export default {
                     },
                     codeUrl: 'https://github.com/moilu/sw-api/tree/main',
                     projectUrl: 'https://sw-api.vercel.app/',
+                },
+                {
+                    name: 'Pokemon Game',
+                    stack: 'HTML, CSS, Vue, API REST',
+                    img: {
+                        src: 'pokemon-app.webp',
+                        alt: 'Pokemon Game'
+                    },
+                    codeUrl: 'https://github.com/moilu/03-pokemon-game',
+                    projectUrl: 'https://vue-pokemon-by-moi.netlify.app/',
                 },
                 {
                     name: 'Budget App',

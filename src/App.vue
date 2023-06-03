@@ -29,7 +29,7 @@ components: {
       <Projects />
       <About />
     </main>
-    <footer class="bg-custom-gray-2 pb-8">
+    <footer class="bg-custom-gray-2 pb-4">
       <ContactForm />
       <FooterLinks />
     </footer>
