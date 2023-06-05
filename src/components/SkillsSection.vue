@@ -1,6 +1,6 @@
 <template>
     <section class="mt-14 px-4 sm:mt-[60px] md:mt-[100px] md:px-0">
-        <div class="grid md:mx-auto w-full md:w-[90%] 2xl:w-1/2">
+        <div class="grid md:mx-auto w-full md:w-[90%] 2xl:w-[55%]">
             <line-break></line-break>
             <ul class="grid grid-cols-2 mt-[40px] sm:mt-[50px] md:mt-[70px] sm:grid-cols-3 gap-8">
                 <li v-for="(skill, index) in skills" :key="index">
