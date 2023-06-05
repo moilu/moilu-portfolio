@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-[80px] px-4 w-full sm:mt-[100px] lg:mt-[140px] md:mx-auto md:px-0 md:w-[90%] 2xl:w-1/2">
+    <section class="mt-[80px] px-4 w-full sm:mt-[100px] lg:mt-[140px] md:mx-auto md:px-0 md:w-[90%] 2xl:w-[55%]">
         <div class="flex justify-between">
             <h1 class="font-bold text-4xl">Projects</h1>
             <a class="hover:animate-pulse decoration-4 decoration-custom-blue font-bold text-base underline underline-offset-8" href="#contact">CONTACT ME</a>

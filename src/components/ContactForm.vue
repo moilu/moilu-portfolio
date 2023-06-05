@@ -1,6 +1,6 @@
 <template>
     <section class="mt-[80px] pt-4 sm:mt-[100px] lg:mt-[140px] px-4 md:px-0" id="contact">
-        <div class="grid gap-14 mt-10 w-full sm:grid-cols-2 md:mx-auto md:w-[90%] 2xl:w-1/2">
+        <div class="grid gap-14 mt-10 w-full sm:grid-cols-2 md:mx-auto md:w-[90%] 2xl:w-[55%]">
             <div>
                 <h1 class="fold-bold mb-4 text-4xl">Contact</h1>
                 <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
