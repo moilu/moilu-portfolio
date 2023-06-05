@@ -16,8 +16,8 @@
             </form>
         </div>
         <div class="grid justify-center mt-10 w-full md:mx-auto md:w-[90%] 2xl:w-[55%]">
-            <p class="decoration-2 decoration-custom-blue underline underline-offset-2">Made by Moilu</p>
-            <a class="justify-self-center hover:animate-pulse text-sm" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Don't click this!</a>
+            <p>Made by Moilu</p>
+            <a class="decoration-2 decoration-custom-blue underline underline-offset-2 justify-self-center hover:animate-pulse text-sm" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Don't click this!</a>
         </div>
     </section>
 </template>
