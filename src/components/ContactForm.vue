@@ -15,6 +15,10 @@
                 <button class="hover:animate-pulse decoration-2 decoration-custom-blue justify-self-end text-base underline underline-offset-8">SEND MESSAGE</button>
             </form>
         </div>
+        <div class="grid justify-center mt-10 w-full md:mx-auto md:w-[90%] 2xl:w-[55%]">
+            <p class="decoration-2 decoration-custom-blue underline underline-offset-2">Made by Moilu</p>
+            <a class="justify-self-center hover:animate-pulse text-sm" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Don't click this!</a>
+        </div>
     </section>
 </template>
 <script>

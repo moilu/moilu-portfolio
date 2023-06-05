@@ -5,7 +5,6 @@ import SkillsSection from './components/SkillsSection.vue';
 import Projects from './components/Projects.vue';
 import About from './components/About.vue';
 import ContactForm from './components/ContactForm.vue';
-import FooterLinks from './components/FooterLinks.vue';
 
 components: {
   NavBar,
@@ -13,8 +12,7 @@ components: {
   SkillsSection,
   About,
   Projects,
-  ContactForm,
-  FooterLinks
+  ContactForm
 }
 </script>
 
@@ -31,7 +29,6 @@ components: {
     </main>
     <footer class="bg-custom-gray-2 pb-4">
       <ContactForm />
-      <FooterLinks />
     </footer>
   </div>
 </template>
