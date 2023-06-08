@@ -38,8 +38,12 @@ export default {
                     experience: '2 Years of Experience'
                 },
                 {
-                    name: 'JavaScript',
+                    name: 'JS',
                     experience: '2 Years of Experience'
+                },
+                {
+                    name: 'And more...',
+                    experience: 'Just ask me!'
                 },
             ]
         }
