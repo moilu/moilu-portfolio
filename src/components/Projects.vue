@@ -33,6 +33,16 @@ export default {
                     projectUrl: 'https://647a74aa65687c1aff6b2688--nimble-genie-69892e.netlify.app/',
                 },
                 {
+                    name: 'Order summary component',
+                    stack: 'Svelte, CSS, Vite',
+                    img: {
+                        src: 'order-summary.webp',
+                        alt: 'Order summary, Spotify type app'
+                    },
+                    codeUrl: 'https://github.com/moilu/order-summary',
+                    projectUrl: 'https://6495e0c994575166cc2e24ac--lovely-genie-b333fc.netlify.app/',
+                },
+                {
                     name: 'Star Wars App',
                     stack: 'HTML, CSS, Vue, API REST',
                     img: {
