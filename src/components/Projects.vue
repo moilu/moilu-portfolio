@@ -1,8 +1,7 @@
 <template>
     <section class="mt-[80px] px-4 w-full sm:mt-[100px] lg:mt-[140px] md:mx-auto md:px-0 md:w-[90%] 2xl:w-[55%]">
-        <div class="flex justify-between">
+        <div>
             <h1 class="font-bold text-4xl">Projects</h1>
-            <a class="hover:animate-pulse decoration-4 decoration-custom-blue font-bold text-base underline underline-offset-8" href="#contact">CONTACT ME</a>
         </div>
         <div class="grid md:grid-cols-2 md:gap-6 xl:grid-cols-3">
             <div v-for="(project, index) in projects" :key="index">
@@ -31,6 +30,16 @@ export default {
                     },
                     codeUrl: 'https://github.com/moilu/preview-card',
                     projectUrl: 'https://647a74aa65687c1aff6b2688--nimble-genie-69892e.netlify.app/',
+                },
+                {
+                    name: 'Order summary component',
+                    stack: 'Svelte, CSS, Vite',
+                    img: {
+                        src: 'order-summary.webp',
+                        alt: 'Order summary, Spotify type app'
+                    },
+                    codeUrl: 'https://github.com/moilu/order-summary',
+                    projectUrl: 'https://6495e0c994575166cc2e24ac--lovely-genie-b333fc.netlify.app/',
                 },
                 {
                     name: 'Star Wars App',
